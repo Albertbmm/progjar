@@ -8,13 +8,13 @@ HOST = 'localhost'
 SOCKET_LIST = []
 LIST_NAMA = []
 RECV_BUFFER = 3999 
-PORT = 1
+PORT = 12000
 
 
 def chat_server():
 
-	sys.stdout.write('Port : ')
-	PORT = int(sys.stdin.readline())
+	#sys.stdout.write('Port : ')
+	#PORT = int(sys.stdin.readline())
 	
 	#creating TCP/IP socket
 	server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
